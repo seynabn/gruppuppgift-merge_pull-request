@@ -6,7 +6,7 @@ class Fruit {
 
  
 constructor(name:string, color:string){
-  this.name=fruit;
+  this.name=name;
   this.color= color;
 }};
 
@@ -42,4 +42,3 @@ constructor(name:string, color:string){
 
 
 
-const fruitContainer= document.getElementById("app") as HTMLDivElement;
