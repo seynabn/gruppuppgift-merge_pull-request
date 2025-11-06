@@ -1,3 +1,4 @@
 import './style.css'
 
-const name = document.getElementById('app') as HTMLDivElement;
+const name = document.getElementById('animals') as HTMLDivElement;
+
