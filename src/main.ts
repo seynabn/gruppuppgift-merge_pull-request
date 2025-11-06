@@ -24,6 +24,9 @@ constructor(name:string, color:string){
 
   
   fruit.forEach(fruit => {
+    const fruitCard = document.createElement("div");
+    fruitCard.classList.add("fruit-card");
+    fruitCard.style.backgroundColor = fruit.color;
     const fruitContainer= document.getElementById("app") as HTMLDivElement;
     const fruitName= document.createElement("h2");
     const fruitColor=document.createElement("p");
@@ -31,8 +34,9 @@ constructor(name:string, color:string){
     fruitName.textContent=fruit.name;
     fruitColor.textContent=fruit.color;
 
-    fruitContainer?.appendChild(fruitName);
-     fruitContainer?.appendChild(fruitName);
+      fruitContainer.appendChild(fruitCard);
+      fruitContainer?.appendChild(fruitName);
+      fruitContainer?.appendChild(fruitColor);
     
   });
 

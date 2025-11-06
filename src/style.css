@@ -40,7 +40,22 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+
 }
+
+
+.fruit-card{
+width: 100px;
+height: 100px;
+
+
+}
+
 
 .logo {
   height: 6em;
