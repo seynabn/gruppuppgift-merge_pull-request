@@ -1,18 +1,18 @@
 import './style.css'
 
 
-
-class Fruit {
-  fruit:string;
+class Fruit{
+  name:string;
   color: string;
 
  
-constructor(fruit:string, colors:string){
-  this.fruit=fruit;
-  this.color= colors;
+
+constructor(name:string, color:string){
+  this.name=name;
+  this.color= color;
 }};
 
-  const fruits:Fruit[]=[
+  const fruit:Fruit[]=[
   new Fruit("Äpple","green"),
   new Fruit("Hallon","red"),
   new Fruit("Apelsin","orange"),
@@ -23,7 +23,18 @@ constructor(fruit:string, colors:string){
 
 
   
+  fruit.forEach(fruit => {
+    const fruitContainer= document.getElementById("app") as HTMLDivElement;
+    const fruitName= document.createElement("h2");
+    const fruitColor=document.createElement("p");
 
+    fruitName.textContent=fruit.name;
+    fruitColor.textContent=fruit.color;
+
+    fruitContainer?.appendChild(fruitName);
+     fruitContainer?.appendChild(fruitName);
+    
+  });
 
 
 
