@@ -1,15 +1,12 @@
 import './style.css'
 
 
-class fruit {
-  fruit:string;
-  color: string;
-}
 
-
-
-
-const fruitContainer= document.getElementById("app") as HTMLDivElement;
 const animalName = document.getElementById('animals') as HTMLDivElement;
 
+const randomName = document.getElementById('para') as HTMLDivElement;
+
 animalName.innerHTML = "Lion";
+
+randomName.innerHTML = "Random text";
+
