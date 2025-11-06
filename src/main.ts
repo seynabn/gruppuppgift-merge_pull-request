@@ -15,17 +15,17 @@ constructor(fruit:string, color:string){
   new Fruit("Hallon","red"),
   new Fruit("Apelsin","orange"),
   new Fruit("citron","yellow")
-  ];
+  ]; 
+
+
+  
 
 
 
 
 
 
-  fruits.forEach(fruits)={
-    
-
-  }
+ 
 
 
 
