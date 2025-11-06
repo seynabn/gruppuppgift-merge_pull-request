@@ -1,5 +1,7 @@
 import './style.css'
 
+
+
 class Fruit {
   fruit:string;
   color: string;
@@ -37,6 +39,10 @@ const animalName = document.getElementById('animals') as HTMLDivElement;
 const randomName = document.getElementById('para') as HTMLDivElement;
 
 const randomShit = document.createElement('random') as HTMLParagraphElement;
+
+if(animalName) {
+  animalName.appendChild(randomShit);
+}
 
 randomShit.innerHTML = "Random";
 
