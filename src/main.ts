@@ -61,4 +61,3 @@ if (animalName && randomName) {
 }
 
 
-
