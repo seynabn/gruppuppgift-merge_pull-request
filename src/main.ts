@@ -1,9 +1,5 @@
 import './style.css'
 
-const planetNames = document.getElementById('planets') as HTMLDivElement;
-
-planetNames.innerHTML = "Lion"
-
 
 class fruit {
   fruit:string;
@@ -14,3 +10,6 @@ class fruit {
 
 
 const fruitContainer= document.getElementById("app") as HTMLDivElement;
+const animalName = document.getElementById('animals') as HTMLDivElement;
+
+animalName.innerHTML = "Lion";
