@@ -64,4 +64,3 @@ animalName.innerHTML = "Lion";
 randomName.innerHTML = "Random text";
 
 
-
