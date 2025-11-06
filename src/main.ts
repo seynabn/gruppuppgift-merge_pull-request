@@ -1,4 +1,5 @@
 import './style.css'
 
-const name = document.getElementById('animals') as HTMLDivElement;
+const animalName = document.getElementById('animals') as HTMLDivElement;
 
+animalName.innerHTML = "Lion";
