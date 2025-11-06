@@ -1,16 +1,17 @@
 import './style.css'
 
-const animalName = document.getElementById('animals') as HTMLDivElement;
+const animalName = document.getElementById('animals') as HTMLDivElement | null;
+const randomName = document.getElementById('para') as HTMLDivElement | null;
 
-const randomName = document.getElementById('para') as HTMLDivElement;
+if (animalName && randomName) {
+  const randomParagraph = document.createElement('p');
+  randomParagraph.textContent = "Random";
 
-const randomShit = document.createElement('random') as HTMLParagraphElement;
+  animalName.textContent = "Lion: ";
+  animalName.appendChild(randomParagraph);
 
-randomShit.innerHTML = "Random";
-
-animalName.innerHTML = "Lion";
-
-randomName.innerHTML = "Random text";
+  randomName.textContent = "Random text";
+}
 
 
 
