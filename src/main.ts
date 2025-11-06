@@ -19,6 +19,8 @@ constructor(fruit:string, colors:string){
   new Fruit("citron","yellow")
   ];
 
+  
+
 
   
 
